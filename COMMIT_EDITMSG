@@ -1,0 +1,11 @@
+Assistant checkpoint
+
+Assistant generated file changes:
+- index.html: Modify nav to show only circular logo
+- style.css: Update logo styles to be circular
+
+---
+
+User prompt:
+
+Non finalement ajoute juste le logo en rond et pas le nom de la société dans la barre

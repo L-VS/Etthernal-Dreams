@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Eternal Dreams - Gaming Studio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="assets/logo.png" alt="Eternal Dreams Logo" id="company-logo">
+    </div>
+    <div class="nav-links">
+      <a href="#games">Jeux</a>
+      <a href="#about">À propos</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <h1>Eternal Dreams</h1>
+    <p>Créateurs de rêves virtuels</p>
+    <p id="os-info">Détection de votre système...</p>
+  </header>
+  
+  <main>
+    <section id="games" class="games-grid">
+      <div class="game-card" data-game="game1">
+        <div class="game-image">
+          <img src="https://picsum.photos/seed/game1/400/300" alt="Fantasy RPG">
+        </div>
+        <div class="game-info">
+          <h2>Fantasy Quest</h2>
+          <p>Une aventure épique dans un monde magique</p>
+          <div class="download-buttons">
+            <button class="windows"><i class="fab fa-windows"></i> Windows</button>
+            <button class="linux"><i class="fab fa-linux"></i> Linux</button>
+            <button class="android"><i class="fab fa-android"></i> Android</button>
+            <button class="ios"><i class="fab fa-apple"></i> iPhone</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="game-card" data-game="game2">
+        <div class="game-image">
+          <img src="https://picsum.photos/seed/game2/400/300" alt="Space Explorer">
+        </div>
+        <div class="game-info">
+          <h2>Space Explorer</h2>
+          <p>Explorez les confins de l'univers</p>
+          <div class="download-buttons">
+            <button class="windows"><i class="fab fa-windows"></i> Windows</button>
+            <button class="linux"><i class="fab fa-linux"></i> Linux</button>
+            <button class="android"><i class="fab fa-android"></i> Android</button>
+            <button class="ios"><i class="fab fa-apple"></i> iPhone</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>Notre Histoire</h2>
+      <p>Eternal Dreams est un studio de développement passionné, créé en 2023.</p>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="https://picsum.photos/seed/member1/200/200" alt="Team Member">
+          <h3>Marie Laurent</h3>
+          <p>Lead Developer</p>
+        </div>
+        <div class="team-member">
+          <img src="https://picsum.photos/seed/member2/200/200" alt="Team Member">
+          <h3>Thomas Martin</h3>
+          <p>Creative Director</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="game-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <div id="modal-game-content"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

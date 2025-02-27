@@ -33,12 +33,12 @@ function initializeGameCards() {
 
   const gameDetails = {
     game1: {
-      title: "Fantasy Quest",
-      description: "Plongez dans un monde fantastique rempli de magie et d'aventures.",
-      releaseDate: "15 Mars 2023",
-      story: "Dans un royaume lointain menacé par les forces du mal...",
+      title: "Dixion | The Next Gen",
+      description: "Dans un monde où la frontière entre la réalité et un univers parallèle mystique s’estompe,",
+      releaseDate: "1 Mars 2025",
+      story: "les joueurs incarnent un protagoniste capable de voyager entre les deux dimensions. Chaque dimension a des règles, des ennemis, et des mystères uniques. Le joueur doit explorer, combattre, résoudre des énigmes, et faire des choix narratifs qui affecteront profondément le destin des deux mondes.",
       features: ["Monde ouvert", "Quêtes épiques", "Personnages personnalisables"],
-      image: "https://picsum.photos/seed/game1/800/400"
+      image: "Dixion.png"
     },
     game2: {
       title: "Space Explorer",
